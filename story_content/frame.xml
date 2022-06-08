@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111001101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns11111001101" font="Articulate" controllayout="npnxnanbsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="pxabnsnfns11111001101" font="Articulate" controllayout="pxabnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="npxnabnsnfns11111001101" font="Articulate" controllayout="npxnabnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="npnxnanbnsnfns11111001101" font="Articulate" controllayout="npnxnanbnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="pxabnsnfns11111001100" font="Articulate" controllayout="pxabnsnfns11111001100" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="pnxanbnsnfns11111001101" font="Articulate" controllayout="pnxanbnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Web-Based Job Search" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="564" />
+                  <property name="height" value="149" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/5y2YOXbCV83.jpg" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="totalelapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="false" />
+          <option name="autocollapse" value="false" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="replay" value="true" />
+          <option name="pauseplay" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns11111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111001101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111001101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Articulate">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6j705ffuu8z" displaytext="Web-Based Job Search" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6lCRCbo6h0o" displaytext="How to Navigate This Course" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5iW6y1a5ZZF" displaytext="The Employer’s Perspective" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5mLNXwgVtgY" displaytext="The Web-Based Job Search" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5euVuED5Cqo" displaytext="Basic Navigation" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6hfWrN6dgoJ" displaytext="Basic Email" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5iYFajCCY57" displaytext="Yahoo.com" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6gprg7babYU" displaytext="Yahoo.com (cont.)" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6qYcWx8qkfp" displaytext="Yahoo.com (cont.)" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6oxuAR814Og" displaytext="Yahoo.com (cont.)" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6PfRRbXiOgP" displaytext="Your Email Address" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6ANhbRJRJ4M" displaytext="Email Messages" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6hUbDBt9KPB" displaytext="Creating an Email Message" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5hL69ymCqK6" displaytext="Sending Your Email" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5jwPattL3YL" displaytext="Viewing Your Email" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5kB63paDckN" displaytext="Viewing the Sent Folder" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.69zQ4WLoUza" displaytext="Other Folders" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6LUufsgDAvL" displaytext="Attachments" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.60CFcxN7188" displaytext="Attaching a Document" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5zgbllgRed8" displaytext="Search Files" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5pVmyWJfLeY" displaytext="Double Click to Attach" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5f3bZyRxHrD" displaytext="Ready to Send" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6QhK7UbJVsL" displaytext="Remember" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6rUO7vXNt0k" displaytext="General Search Engines" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5mdYf8rYRTd" displaytext="Job Search Engines" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.66ZZ9eeryER" displaytext="National Job Search Engines" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6FLiZLQkHsR" displaytext="State Job Search Engines" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6Cxpl8z0ej0" displaytext="Local Job Search Engine" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.62ILxyXH6Nl" displaytext="Job Search Engine Profiles" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5qWznXNOKAh" displaytext="Company/Business Search" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5erlhuUWzqe" displaytext="No Two Sites are the Same" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5ubp7uGNod0" displaytext="Electronic Networking " expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.67crbAsWVfa" displaytext="Use LinkedIn" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6RHBfrIOkE8" displaytext="Open a LinkedIn Account" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6DFv33fwrWs" displaytext="Your LinkedIn Profile" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5fmjy6WM6IP" displaytext="Make Connections" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.6dCWfgfZ5nV" displaytext="LinkedIn Groups" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.61MZvJq9dDd" displaytext="Look for Jobs" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5mC4FDAgdg2" displaytext="Explore" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.615HgxbApaD" displaytext="Key Points" expand="false" type="slide" />
+        <slidelink slideid="_player.6pqJ7WBa8JZ.5Z3ev5xMvcI" displaytext="Good Luck!" expand="false" type="slide" />
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6j705ffuu8z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Welcome to Web-Based Job Search, on online resource for job seekers.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6lCRCbo6h0o" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 0.35px'&gt;&lt;textformat leading='1' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;Click the button to view a tutorial on course navigation. To skip the tutorial, click the Next button to begin.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px;margin-top: 7.2px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Arial' size='15pt' style="font-size:15pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;&lt;b&gt;Menu Tab - &lt;/b&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;Displays each screen in the course, with the current screen highlighted.&lt;br&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;Users can navigate to any previously viewed material by clicking to highlight a screen title.&lt;br&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;Sections can be expanded or collapsed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px;margin-top: 7.2px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Arial' size='15pt' style="font-size:15pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;&lt;b&gt;Closed Caption Tab - &lt;/b&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;Displays the narrated audio.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px;margin-top: 7.2px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Arial' size='15pt' style="font-size:15pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;&lt;b&gt;Volume Adjustment - &lt;/b&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;The user can change the volume level of the narration.&lt;br&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;If no speakers are available, the user may refer to the &amp;quot;Closed Caption&amp;quot; tab to read along, if preferred.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px;margin-top: 7.2px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Arial' size='15pt' style="font-size:15pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;&lt;b&gt;Play/Pause Button - &lt;/b&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;This button lets you choose to Play or Pause the course.&lt;br&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;The Play button keeps the course moving forward.  &lt;br&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;The Pause button allows the user to temporarily stop the course.&lt;br&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;If you exit the course, you will be prompted to resume where you left off.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px;margin-top: 7.2px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Arial' size='15pt' style="font-size:15pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;&lt;b&gt;Replay Button&lt;/b&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt; – Will replay the current screen from the beginning.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px;margin-top: 7.2px'&gt;&lt;textformat leading='1' tabstops='[0, 24, 48, 96, 144]'&gt;&lt;font face='Arial' size='15pt' style="font-size:15pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt;&lt;b&gt;Previous and Next Buttons&lt;/b&gt;&lt;/font&gt;&lt;font face='Calibri' size='15pt' style="font-size:15pt;" color='#000000'&gt; – Allow user to view previous material, or continue through the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5iW6y1a5ZZF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;If you don&amp;#39;t have much computer experience, you may ask, “Why should I bother using the Internet for my job search?  I found good employment long before the Internet was invented.”  Here&amp;#39;s the answer to your question.  You should use the Internet to search for employment because employers use the Internet to search for employees.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Many employers require candidates to fill out applications online on their website.  Why?  Because it&amp;#39;s easier and more efficient for them.  Think about it.  As an employer:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;I don&amp;#39;t have to waste time with candidates coming to my office and asking for an application.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;I don&amp;#39;t have to deal with sloppy handwriting.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;I save money by not having to have copies of blank applications on hand.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;And one more thing…I want people who&amp;#39;ve kept their skills up to date and are technically savvy.  I weed out candidates who can&amp;#39;t fill out an online application.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Are you beginning to understand why a web-based job search is so important?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5mLNXwgVtgY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;A web-based job search should include a number of resources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;Basi&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;c search engines, which can be used to find information on virtually any subject,  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;Job &lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;search engines, which can be used to find employment opportunities with a variety of employers,&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;Company web sites &lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;that provide information about a specific company. They often advertise career opportunities and may require you to complete an online application. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Finally, &lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;electronic networking &lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;tools like LinkedIn which can be used to connect to people who share a common interest or skill. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5euVuED5Cqo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Before we look at these resources, let&amp;#39;s talk about basic navigation on the Internet.  If this is new to you, you need to know how to use the tools on your screen.  Click on each tab to learn more.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Toolbar: Provides quick access to functions that are commonly performed within a computer program. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Address Bar: Allows you to enter the web address of a page you wish to visit.  Use this box only if you know the address of the site you are seeking.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Search Bar: Accesses the search engine.  Use this bar to locate information on virtually any topic.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Back/Forward Buttons: Moves you to and from screens you&amp;#39;ve previously viewed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Refresh: Reloads/ redisplays the current page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Favorites: Stores your favorite web pages on the computer, making it easier for you to find them later.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Enter Key: Moves the cursor to the front of the next line when you&amp;#39;re typing a document.  Sometimes, the Enter Key is referred to as the Return Key.  This key is also used to execute a command on your computer.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Cursor: Gives a visual representation on the screen that allows you to specify where you want the text to be placed.  The cursor is usually represented by a flashing vertical line or by a flashing box.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Tab Key: Moves the cursor from one field to the next field when completing applications and profiles on the Internet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Icon: Uses a picture to represent a folder, program, or file.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Maximize / Minimize:  Increases or decreases the size of a window on your screen.  Maximize increases the window to the full size of the screen.  Minimize reduces the window and places it on the taskbar.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Pull-Down Menu: Provides a way to access and view a list of optional information or commands when you&amp;#39;re working with websites containing a lot of information.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Scroll: Allows you to view the entire content of a screen by moving visual portions of the screen up, down, left, or right.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Taskbar: Allows you to locate and activate computer programs using the Start button at the bottom left-hand portion of your screen.  Also, you can open any program that has been minimized and placed on the taskbar.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6hfWrN6dgoJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You also need to know how to use email, whether it&amp;#39;s with the Internet or not.  If you don&amp;#39;t have an email account, you can set up and use a free one on Hotmail, Yahoo, or Google. Let&amp;#39;s look at an example from Yahoo.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5iYFajCCY57" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Now, type yahoo.com into the Internet address window.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Click the mail feature near the upper left side of your screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6gprg7babYU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Locate the box which reads “Sign in to Yahoo!”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;At the bottom of the box, click “Create New Account.”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6qYcWx8qkfp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Type your first and last name in the appropriate field.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Yahoo will suggest several choices of Yahoo ID&amp;#39;s.  Each choice is built using elements of your name.  Select your favorite choice as your Yahoo ID.  This will become the first part of your email address.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Next, create a password.  Your password must be at least six characters long but can&amp;#39;t be more than 32 characters long.  Do not use your name or your Yahoo ID as part of your password.  Retype your password in the appropriate field to verify its accuracy.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Remember to write down your password and keep it in a safe place for future reference.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Now, complete the personal information:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Birthday&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Gender&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Language&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Country, and&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Postal code (which is the same as your zip code).&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6oxuAR814Og" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='14.5pt' style="font-size:14.5pt;" color='#000000'&gt;Next, provide information within your account to be used in case you can&amp;#39;t remember your password.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='14.5pt' style="font-size:14.5pt;" color='#000000'&gt;Don&amp;#39;t forget to use the pulldown menu to select the appropriate country if you&amp;#39;re using your mobile phone as a back-up contact.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='14.5pt' style="font-size:14.5pt;" color='#000000'&gt;Finally, click “Create my account.”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6PfRRbXiOgP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Create your email address by building it around your first and last names. If you have a common name, add a random number or variation which still makes it clear this is your name.  For example, Anita.Job1@yahoo.com.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Remember that employers turn away from candidates who have unprofessional email addresses that contain sexual, religious, or political references.  It&amp;#39;s also a good idea to avoid references to age.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6ANhbRJRJ4M" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;To send an email, sign in to your email account.  Locate and double click the “Compose” option.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6hUbDBt9KPB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;In the field marked “To,” type the address of the person who will receive the email. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;In the field marked “Subject,” tell your reader what the email is about. For example, suppose you were writing an email to a friend, asking if she knew of any job openings at her workplace.  Your subject line could read, “Looking for Work.”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Notice the CC and the BCC features.  &lt;/font&gt;&lt;b&gt; &lt;/b&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;“CC” stands for Carbon Copy.  Use this feature when you want to send a copy of the email to someone in addition to the main reader.  Keep in mind, the main reader can see the name and/or email address of everybody you place in the “CC” field.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;“BCC” stands for Blind Carbon Copy.  Use this feature when you want to send a copy of the email to an additional reader, and you don&amp;#39;t want the main reader to see who has received a copy of the email.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;The “Letter” field is the largest part of the email page.  Use the space in this field to type your email message.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5hL69ymCqK6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;After you write your message, click “Send.”  The date and time the email was sent will automatically be added to the message.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Now, let&amp;#39;s take a look at your email folders, located on the left-hand side of your email screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;The Inbox allows you to view messages other people have sent to you. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5jwPattL3YL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Email is displayed in chronological order, with the most recent email at the top of the list.  Email you haven&amp;#39;t read yet is displayed in bold letters.  Notice how the message from William Epperson has not been read&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Click on the email to read the message.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5kB63paDckN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You can also view a copy of email messages you&amp;#39;ve sent.  Simply double click on the “Sent” folder.  Double click on the email you&amp;#39;d like to view, and the message appears.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.69zQ4WLoUza" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You have other folders available to you, as well.  The Drafts folder holds email messages which you have not finished writing.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;The Spam folder holds electronic junk mail.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;The Trash folder holds mail you have discarded by using the Delete function.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;To view the email in any folder, simply double click on the folder.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6LUufsgDAvL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;A nice thing about email messages is you can attach all sorts of files to them.  For example, let&amp;#39;s say a potential employer asks you for a sample of your work (such as a report or illustration).   You can create an email message and attach the report to your email message.  The recipient gets a copy of both your message AND the report.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Let&amp;#39;s see how sending an attachment works.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.60CFcxN7188" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Attaching a document is easy, with a little practice.  After you finish writing your email, click on the Attachment feature.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5zgbllgRed8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;A new window appears.  Search through the items in the window until you locate the file you want to attach.  Remember to use the scroll bar in the new window to reveal more files, if needed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5pVmyWJfLeY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Here&amp;#39;s the right file.  It&amp;#39;s labeled Resume, Ric Byrd.  Double click on the file, and it attaches to the email.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5f3bZyRxHrD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You now have an email, along with its attachment.  All you need to do now is click on “Send.”  And by the way, you can attach multiple files to a single email.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6QhK7UbJVsL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;When you use email, remember that no two websites are the same.  Your email attachment may appear differently depending on the email service you use.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6rUO7vXNt0k" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Now that you understand Internet and email navigation, let&amp;#39;s look at the job search resources we mentioned earlier.  The first type is general search engines - which are easy to find and use.  &lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Almost everyone has heard of Google.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;To find any of these search engines, go to the address field of your web browser and type the name of the search engine followed by “.com.”  For instance, type google.com and press the Enter key.  When the Google page displays, you&amp;#39;ll see a search box.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Type something in the search box.  For example type “jobs in Indianapolis” or “Duke Energy” or “Good companies to work for in Indianapolis.”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Basic search engines are great because you can type in just about anything and get a response. There are no rules!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5mdYf8rYRTd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Job search engines, on the other hand, are specifically related to job search.  Contrary to popular belief, these job search engines were not created so &lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;you&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt; could find a job.  They were created so &lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;employers&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt; could fill positions.  There are job search engines for national, state, and local employment opportunities.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.66ZZ9eeryER" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Some of the more popular national job search engines are &lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Monster, Indeed and Careerbuilder&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;. These sites allow you to search for jobs across the nation and overseas.  You can use a variety of criteria including occupation keywords, job titles, and locations to narrow your search.  Many of these sites have helpful job and career information, too.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6FLiZLQkHsR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;An example of a state-specific job search engine is www.workintexas.com.  You can use this site to search for jobs in Texas by employer, education, or skills. If you need help, your local workforce development professional can show you how to register or complete the application.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6Cxpl8z0ej0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;An example of a local job search engine is HoustonJobs.com.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You can also use national and state job search engines to search locally by entering specific location information. For example, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;careerbuilder.com,&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;indeed.com, and&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;simplyhired.com all have Houston-specific sites.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.62ILxyXH6Nl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Regardless of the type of job search engine you use - national, state, or local -- it&amp;#39;s a good idea to create a profile.  A profile allows you to maximize your productivity within the site.  It saves your important information so you won&amp;#39;t have to type it over and over again.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You should create a profile for each job search engine you use.   &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;To create a profile, you&amp;#39;ll need to generate a “user name” and a password.  You&amp;#39;ll use your email address to send and receive correspondence.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5qWznXNOKAh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Finally, you can search for employment opportunities on individual company or business web sites such as:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]'&gt;&lt;font face='Symbol' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#000000'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Chevron&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]'&gt;&lt;font face='Symbol' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#000000'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Waste Management&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 12px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]'&gt;&lt;font face='Symbol' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 12px; margin-left: -12px;" color='#000000'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;University of Texas&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5erlhuUWzqe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;No two company websites are the same, and they tend to use different terminology to list their job opportunities.  Look for clues to navigate your way through the site.  For example, Chevron&amp;#39;s website lists job opportunities under “About.”  Waste Management’s website lists its job opportunities under “Inside WM”   University of Texas requires you to click on “Faculty &amp;amp; Staff” then “Human Resources,” then ”Apply for a Job.” You just need to explore a little - almost all large businesses have job portals on their websites now.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5ubp7uGNod0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Because networking is still the best way to find a job, electronic networking (or social media) sites are an important Internet resource. Although you may have heard of Facebook and Twitter, the best site for professional networking is LinkedIn.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;LinkedIn is a great way to network your way into job opportunities.  Here are some facts about this site:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;LinkedIn has over 575 million users, with more than 260 million monthly active users.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;The average LinkedIn member is between 25-34 years old.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;44% of LinkedIn users take home more than $75,000 per year, which is above the national median in the US.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Every one of the Fortune 500 companies has employees on LinkedIn.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;About 10 million small business owners are on LinkedIn. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.67crbAsWVfa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You should create and use a LinkedIn account to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Build a profile that introduces you to others professionally,&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Make connections to people with whom you can share information about your job search and from whom you can gain career insights,&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Join LinkedIn Groups to explore new ideas within your career through online group discussions, and&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Look for job opportunities and gather information on the employers listed on LinkedIn.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6RHBfrIOkE8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Open a LinkedIn account and begin creating your profile by going to the address bar and typing www.linkedin.com.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;To create an account, type your first and last name in the appropriate fields&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Type your email address into the appropriate field&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Next, create a password to use when you log back in to your LinkedIn account.  Your password will need to be at least six characters long&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;&lt;b&gt;.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Then click “Join Now.”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You&amp;#39;re now ready to create a LinkedIn profile following their user-friendly steps! &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6DFv33fwrWs" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Your LinkedIn profile should tell readers who you are and (hopefully) capture their interest.  Be sure to include information about your past experiences, your particular skills, your education, and professional organizations to which you belong.  Include a professional headshot photo of yourself.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5fmjy6WM6IP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Now, it&amp;#39;s time to start making connections. Building a network in LinkedIn is like building a network anyplace else.  Always start with people you know and trust.  In general, start with your family and friends first.  Then, move on to neighbors, acquaintances, and former co-workers and classmates.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You&amp;#39;ll also want to network through any professional affiliations to which you belong - especially affiliations attached to your chosen career or industry.   If you&amp;#39;re a trucker, for example, consider networking with a long-distance hauling affiliate or group.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.6dCWfgfZ5nV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You can join groups on LinkedIn too, with members who have similar interests and backgrounds.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;LinkedIn identifies groups you may like.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Find out about a group by clicking on the group&amp;#39;s name.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Information about the group appears.  You request to join the group by simply clicking “Join Group”.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.61MZvJq9dDd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;You can even look for jobs on LinkedIn.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Click on the “Search for Jobs” feature.  You can search by job title, keyword, or company name.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.5mC4FDAgdg2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;As you can see, there are many tools and resources on LinkedIn to help you make the right connections.  Once you&amp;#39;ve created your profile, don&amp;#39;t be afraid to do some exploring!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pqJ7WBa8JZ.615HgxbApaD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Hopefully, we&amp;#39;ve convinced you to use web-based tools as part of your job search plan. These tools should include: &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Basic search engines, such as Google, Bing, or Ask&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Job search engines - national, state, and local,&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Company websites, and &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 10px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 10, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 10px; margin-left: -10px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;Electronic networking sites like LinkedIn.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 2.4px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Articulate' size='13.5pt' style="font-size:13.5pt;" color='#000000'&gt;With a little practice, you&amp;#39;ll be searching for jobs on the Internet in no time…and you&amp;#39;ll probably be surprised at the results.  Good luck!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
